@@ -1,0 +1,186 @@
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #0f0f0f;
+    color: #fff;
+  }
+  .highlight {
+    color: #facc15;
+  }
+  
+  h1 {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    text-transform: uppercase;
+  }
+  
+  .primaryfont {
+    font-family: "Oswald", sans-serif;
+  }
+  
+  .sec {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+  
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+  
+  .glowlight {
+    box-shadow: 0px 0px 60px 6px #00c2cbd6;
+  }
+  
+  .bgmdlight {
+    background-color: rgba(255, 255, 255, 0.04);
+  }
+  
+  .buybtn {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  
+  .custom-btn {
+    color: #000;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+      7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+    outline: none;
+  }
+  
+  .btn-5 {
+    width: auto;
+    height: auto;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    background: #facc15;
+    background: linear-gradient(0deg, #facc15 0%, #facc15 100%);
+  }
+  .btn-5:hover {
+    color: #000;
+    background: #fff;
+    box-shadow: none;
+  }
+  
+  .btn-5:before,
+  .btn-5:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 2px;
+    width: 0;
+    background: #facc15;
+    box-shadow: -1px -1px 5px 0px #fff, 7px 7px 20px 0px #0003,
+      4px 4px 5px 0px #0002;
+    transition: 400ms ease all;
+  }
+  .btn-5:after {
+    right: inherit;
+    top: inherit;
+    left: 0;
+    bottom: 0;
+  }
+  .btn-5:hover:before,
+  .btn-5:hover:after {
+    width: 100%;
+    transition: 800ms ease all;
+  }
+  
+  .divider {
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    height: 1px;
+  }
+  
+  .div-transparent:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    height: 1px;
+    background-image: linear-gradient(
+      to right,
+      transparent,
+      rgb(48, 49, 51),
+      transparent
+    );
+  }
+  
+  .div-dot:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: -9px;
+    left: calc(50% - 9px);
+    width: 14px;
+    height: 14px;
+    background-color: goldenrod;
+    border: 1px solid rgb(48, 49, 51);
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 2px white, 0 0 0 4px white;
+  }
+  
+  .test-icon::before {
+    font-family: FontAwesome;
+    content: "\f10d";
+    background-color: #facc15;
+    font-size: 20px;
+    color: #111;
+    display: inline-block;
+    padding: 5px 15px 5px 15px;
+    font-style: normal;
+  
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  .flipdown.flipdown__theme-dark .rotor-group-heading:before {
+    color: #fff !important;
+  }
+  
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  @keyframes wiggle {
+    0%, 100% { transform: rotate(-2deg) scale(1); }
+    50% { transform: rotate(2deg) scale(1.05); }
+  }
+  .wiggle {
+    animation: wiggle 1.2s ease-in-out infinite;
+  }
+  
+  @keyframes bounceGlow {
+    0%, 100% {
+      transform: scale(1);
+      box-shadow: 0 0 0px rgba(255, 255, 0, 0.7);
+    }
+    50% {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px rgba(255, 255, 0, 0.9);
+    }
+  }
+  .bounce-glow {
+    animation: bounceGlow 1.5s infinite;
+  }
