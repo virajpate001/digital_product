@@ -6,6 +6,7 @@ import Features from './Features'
 import Social from './Social'
 import Pricing from './Pricing'
 import Fixsec from './Fixsec'
+import Faq from './Faq'
 
 
 const Home = () => {
@@ -18,7 +19,7 @@ const Home = () => {
       <Social/>
       <Pricing/>
       <Fixsec/>
-
+      <Faq/>
     </div>
   )
 }
