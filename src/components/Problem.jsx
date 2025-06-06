@@ -1,16 +1,5 @@
-<<<<<<< HEAD
-import React from 'react'
 
-const Problem = () => {
-  return (
-    <section>
-      <h3>Problem</h3>
-    </section>
-  )
-}
 
-export default Problem
-=======
 
 import React from 'react'
 import img2 from '../assets/img/img2.png'
@@ -78,4 +67,4 @@ const Problem = () => {
 };
 
 export default Problem;
->>>>>>> 47b8004 (lastsecadded)
+
