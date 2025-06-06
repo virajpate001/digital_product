@@ -1,4 +1,12 @@
 import React from 'react'
+import img1 from '../assets/img/img1.png'
+
+import img3 from '../assets/img/peron1.jpg'
+import img4 from '../assets/img/person2.jpg'
+import img5 from '../assets/img/person3.png'
+import shape1 from '../assets/img/shape-07-1.png'
+import shape2 from '../assets/img/shape-10.png'
+
 
 const Hero  = () => {
 	return (
@@ -9,7 +17,7 @@ const Hero  = () => {
 			>
 				<div className="prodimg mb-4 md:mb-6">
 					<img
-						src="img/img1.png"
+						src={img1}
 						className="w-32 md:w-40 mx-auto glowlight bg-transparent"
 						alt=""
 					/>
@@ -20,7 +28,7 @@ const Hero  = () => {
 					data-aos="fade-down"
 				>
 					200+ Viral
-					<span className="highlight">Content Prompts</span> for
+					 <span className="highlight"> Content Prompts</span> for
 					Creators
 				</h1>
 				<p className="sec md:text-xl mb-6" data-aos="fade-down">
@@ -48,17 +56,17 @@ const Hero  = () => {
 						</div>
 						<div className="flex">
 							<img
-								src="img/peron1.jpg"
+								src={img3}
 								className="w-6 h-6 rounded-full border-2"
 								alt=""
 							/>
 							<img
-								src="img/person2.jpg"
+								src={img4}
 								className="w-6 h-6 rounded-full -ml-2 border-2"
 								alt=""
 							/>
 							<img
-								src="img/person3.png"
+								src={img5}
 								className="w-6 h-6 rounded-full -ml-2 border-2"
 								alt=""
 							/>
@@ -68,13 +76,13 @@ const Hero  = () => {
 
 				<div className="absolute -top-16 md:top-0 -right-16 md:right-0 opacity-30">
 					<img
-						src="img/shape-07-1.png"
+						src={shape1}
 						className="grayscale"
 						alt=""
 					/>
 				</div>
 				<div className="absolute bottom-0 md:bottom-20 -left-16 md:left-24 opacity-30">
-					<img src="img/shape-10.png" className="grayscale" alt="" />
+					<img src={shape2} className="grayscale" alt="" />
 				</div>
 			</section>
 		</>

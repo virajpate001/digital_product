@@ -163,6 +163,8 @@ body {
     height: 100%;
   }
   
+  
+  
   @keyframes wiggle {
     0%, 100% { transform: rotate(-2deg) scale(1); }
     50% { transform: rotate(2deg) scale(1.05); }
