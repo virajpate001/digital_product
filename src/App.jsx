@@ -6,6 +6,7 @@ import { Outlet } from 'react-router-dom'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Footer from './components/Footer'
+import Metapixel from './components/Metapixel'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
 
   return (
     <>
+    <Metapixel/>
     <Outlet/>
     <Footer/>
     </>
