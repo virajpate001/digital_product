@@ -1,5 +1,5 @@
 import React from 'react'
-import img1 from '../assets/img/img1.png'
+import img1 from '../assets/img/fimg1.png'
 
 import img3 from '../assets/img/peron1.jpg'
 import img4 from '../assets/img/person2.jpg'
@@ -18,7 +18,7 @@ const Hero  = () => {
 				<div className="prodimg mb-4 md:mb-6">
 					<img
 						src={img1}
-						className="w-32 md:w-40 mx-auto glowlight bg-transparent"
+						className="w-32 md:w-40 mx-auto  bg-transparent"
 						alt=""
 					/>
 				</div>

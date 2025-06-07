@@ -54,6 +54,7 @@ const Social = () => {
 
         <div className="max-w-7xl mx-auto pb-14">
           <Swiper
+          
             modules={[Autoplay, Pagination]}
             slidesPerView={1}
             spaceBetween={30}
@@ -69,8 +70,8 @@ const Social = () => {
             pagination={{ clickable: true }}
           >
             {testimonials.map((item, index) => (
-              <SwiperSlide key={index}>
-                <div className="bg-[#0000005c] pl-16 py-8 rounded test-icon h-full">
+              <SwiperSlide key={index} >
+                <div className="bg-[#0000005c] pl-16 py-8 rounded test-icon h-full mb-8">
                   <p>{item.text}</p>
                   <p className="mt-2 text-yellow-400 primaryfont uppercase text-sm">
                     {item.author}

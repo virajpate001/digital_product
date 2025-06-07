@@ -70,8 +70,8 @@ const Pricing = () => {
         </div>
 
         <h3 className="primaryfont text-3xl mb-6">
-          Buy Now For Just <del>₹ 499</del>
-          <span className="highlight md:text-6xl"> ₹ 99,</span>
+          Buy Now For Just <del>₹ 200</del>
+          <span className="highlight md:text-6xl"> ₹ 49,</span>
         </h3>
         <p className="mb-6 text-sm text-gray-400" data-aos="zoom-in">
           Includes lifetime access + Bonuses
@@ -82,7 +82,7 @@ const Pricing = () => {
           className="btn-5 custom-btn px-6 py-2 aos-init aos-animate inline-block mb-8 bounce-glow"
           data-aos="zoom-in"
         >
-          Buy Now at ₹ 99
+          Buy Now at ₹ 49
         </a>
 
         <h3 className="primaryfont text-3xl mb-6">

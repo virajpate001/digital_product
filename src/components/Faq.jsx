@@ -27,7 +27,7 @@ const Faq = () => {
             <div className="mx-auto w-full max-w-lg divide-y divide-white/5 rounded-xl bg-white/5">
               <Disclosure as="div" className="p-6" defaultOpen={true}>
                 <DisclosureButton className="group flex w-full items-center justify-between">
-                  <span className="text-sm/6 font-medium text-white group-data-hover:text-white/80">
+                  <span className=" text-left group-data-hover:text-white/80 mt-2  primaryfont uppercase text-md">
                     What platforms are these prompts for?
                   </span>
                   <FaAngleDown className="size-5 fill-white/60 group-data-hover:fill-white/50 group-data-open:rotate-180" />
@@ -38,8 +38,8 @@ const Faq = () => {
               </Disclosure>
               <Disclosure as="div" className="p-6">
                 <DisclosureButton className="group flex w-full items-center justify-between">
-                  <span className="text-sm/6 font-medium text-white group-data-hover:text-white/80">
-                    How do I receive the product?{" "}
+                  <span className="text-left group-data-hover:text-white/80 mt-2  primaryfont uppercase text-md">
+                    How do I receive the product?
                   </span>
                   <FaAngleDown className="size-5 fill-white/60 group-data-hover:fill-white/50 group-data-open:rotate-180" />
                 </DisclosureButton>
@@ -49,48 +49,38 @@ const Faq = () => {
               </Disclosure>
                             <Disclosure as="div" className="p-6">
                 <DisclosureButton className="group flex w-full items-center justify-between">
-                  <span className="text-sm/6 font-medium text-white group-data-hover:text-white/80">
-                    How do I receive the product?{" "}
+                  <span className="text-left group-data-hover:text-white/80 mt-2  primaryfont uppercase text-md">
+                    Can I use these prompts with ChatGPT or Notion?
                   </span>
                   <FaAngleDown className="size-5 fill-white/60 group-data-hover:fill-white/50 group-data-open:rotate-180" />
                 </DisclosureButton>
                 <DisclosurePanel className="mt-2 text-sm/5 text-white/50">
-                  You’ll instantly receive a downloadable PDF via email.
+                  Yes! They’re fully copy-paste ready for AI and planning tools.
                 </DisclosurePanel>
               </Disclosure>
                             <Disclosure as="div" className="p-6">
                 <DisclosureButton className="group flex w-full items-center justify-between">
-                  <span className="text-sm/6 font-medium text-white group-data-hover:text-white/80">
-                    How do I receive the product?{" "}
+                  <span className="text-left group-data-hover:text-white/80 mt-2  primaryfont uppercase text-md">
+                    Are these for beginners or pros?
                   </span>
                   <FaAngleDown className="size-5 fill-white/60 group-data-hover:fill-white/50 group-data-open:rotate-180" />
                 </DisclosureButton>
                 <DisclosurePanel className="mt-2 text-sm/5 text-white/50">
-                  You’ll instantly receive a downloadable PDF via email.
+                  Both. Whether you're just starting or scaling, these prompts save you time and boost content flow.
                 </DisclosurePanel>
               </Disclosure>
                             <Disclosure as="div" className="p-6">
                 <DisclosureButton className="group flex w-full items-center justify-between">
-                  <span className="text-sm/6 font-medium text-white group-data-hover:text-white/80">
-                    How do I receive the product?{" "}
+                  <span className="text-left group-data-hover:text-white/80 mt-2  primaryfont uppercase text-md">
+                    Do I get lifetime access?
                   </span>
                   <FaAngleDown className="size-5 fill-white/60 group-data-hover:fill-white/50 group-data-open:rotate-180" />
                 </DisclosureButton>
                 <DisclosurePanel className="mt-2 text-sm/5 text-white/50">
-                  You’ll instantly receive a downloadable PDF via email.
+                 Yes — pay once, use forever.
                 </DisclosurePanel>
               </Disclosure>
-                            <Disclosure as="div" className="p-6">
-                <DisclosureButton className="group flex w-full items-center justify-between">
-                  <span className="text-sm/6 font-medium text-white group-data-hover:text-white/80">
-                    How do I receive the product?{" "}
-                  </span>
-                  <FaAngleDown className="size-5 fill-white/60 group-data-hover:fill-white/50 group-data-open:rotate-180" />
-                </DisclosureButton>
-                <DisclosurePanel className="mt-2 text-sm/5 text-white/50">
-                  You’ll instantly receive a downloadable PDF via email.
-                </DisclosurePanel>
-              </Disclosure>
+                            
             </div>
           </div>
         </div>

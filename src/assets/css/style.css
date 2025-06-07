@@ -141,7 +141,7 @@ body {
   
   .test-icon::before {
     font-family: FontAwesome;
-    content: "\f10d";
+    content: "❝";
     background-color: #facc15;
     font-size: 20px;
     color: #111;

@@ -30,7 +30,7 @@ const Fixsec = () => {
             className="btn-5 custom-btn px-6 py-2 wiggle"
             data-aos="zoom-in"
           >
-            Buy Now at <del>₹ 499</del> ₹ 99
+            Buy Now at <del>₹ 200</del> ₹ 49
           </a>
         </div>
       </section>

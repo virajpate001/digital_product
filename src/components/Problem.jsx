@@ -2,7 +2,7 @@
 
 
 import React from 'react'
-import img2 from '../assets/img/img2.png'
+import img2 from '../assets/img/img5.png'
 import { PiTimerFill } from "react-icons/pi";
 import { IoIosCompass } from "react-icons/io";
 import { AiOutlineFastForward } from "react-icons/ai";
