@@ -26,9 +26,10 @@ const Fixsec = () => {
             <span className="text-black">grow your audience faster?</span>
           </h3>
           <a
-            href="#buy"
+            href="https://imjo.in/rArj4J"
             className="btn-5 custom-btn px-6 py-2 wiggle"
             data-aos="zoom-in"
+            target="_blank"
           >
             Buy Now at <del>₹ 200</del> ₹ 49
           </a>
