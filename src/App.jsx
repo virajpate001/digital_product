@@ -24,7 +24,7 @@ function App() {
 
   return (
     <>
-    <Metapixel/>
+    
     <Outlet/>
     <Footer/>
     </>
