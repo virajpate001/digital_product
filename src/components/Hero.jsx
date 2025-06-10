@@ -37,9 +37,10 @@ const Hero  = () => {
 				</p>
 
 				<a
-					href="#buy"
+					href="https://digitalvap.mojo.page/viral-content-prompt"
 					className="bounce-glow custom-btn px-6 py-2 btn-5 "
 					data-aos="zoom-in"
+					target="_blank"
 				>
 					Get Instant Access
 					<span>

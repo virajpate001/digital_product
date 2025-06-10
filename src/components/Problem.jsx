@@ -16,7 +16,7 @@ const Problem = () => {
           className="primaryfont uppercase text-3xl font-bold"
           data-aos="fade-right"
         >
-          Struggling to Come Up With{" "}
+          Struggling to Come Up With
           <span className="highlight">Content Ideas?</span>
         </h2>
 

@@ -78,7 +78,7 @@ const Pricing = () => {
         </p>
 
         <a
-          href="https://imjo.in/cSMAUa"
+          href="https://digitalvap.mojo.page/viral-content-prompt"
           className="btn-5 custom-btn px-6 py-2 aos-init aos-animate inline-block mb-8 bounce-glow"
           data-aos="zoom-in"
           target="_blank"

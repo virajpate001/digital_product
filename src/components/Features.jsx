@@ -20,9 +20,10 @@ const Features = () => {
               <li>📥 Instant PDF Download</li>
             </ul>
             <a
-              href="#buy"
+              href="https://digitalvap.mojo.page/viral-content-prompt"
               className="btn-5 custom-btn px-6 py-2 aos-init aos-animate inline-block my-6 bounce-glow"
               data-aos="zoom-in"
+              target="_blank"
             >
               Get Instant Access
               <span>

@@ -10,6 +10,7 @@ import {
   Route,
   RouterProvider,
 } from "react-router-dom";
+import Thankyou from "./components/Thank-you.jsx";
 
 const router = createBrowserRouter(
   [
@@ -20,6 +21,10 @@ const router = createBrowserRouter(
         {
           path: "/",
           element: <Home />,
+        },
+        {
+          path: "/thank-you",
+          element: <Thankyou />,
         }
       ],
     },
