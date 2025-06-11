@@ -44,7 +44,7 @@ const Faq = () => {
                   <FaAngleDown className="size-5 fill-white/60 group-data-hover:fill-white/50 group-data-open:rotate-180" />
                 </DisclosureButton>
                 <DisclosurePanel className="mt-2 text-sm/5 text-white/50">
-                  You’ll instantly receive a downloadable PDF via email.
+                  You’ll instantly receive a downloadable PDF via email. <br/>(Can’t find it?: Email us at digitalvap16@gmail.com — we’re happy to help.)
                 </DisclosurePanel>
               </Disclosure>
                             <Disclosure as="div" className="p-6">

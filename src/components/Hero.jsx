@@ -32,7 +32,7 @@ const Hero  = () => {
 					Creators
 				</h1>
 				<p className="sec md:text-xl mb-6" data-aos="fade-down">
-					Dominate YouTube, Instagram, TikTok & More With High-Impact,
+					Dominate YouTube, Instagram, Facebook & More With High-Impact,
 					AI-Powered Ideas!
 				</p>
 
