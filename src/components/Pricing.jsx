@@ -7,7 +7,7 @@ import { useEffect } from "react";
 const Pricing = () => {
  useEffect(() => {
    const countdown = new FlipDown(
-      Math.floor(new Date("2025-06-07T22:00:00").getTime() / 1000)
+      Math.floor(new Date("2025-06-14T22:00:00").getTime() / 1000)
     );
 
      countdown.start();
